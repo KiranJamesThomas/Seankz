@@ -19,9 +19,7 @@ import java.util.Set;
 @JsonIgnoreProperties("hibernateLazyInitializer")
 @Entity
 @Table(name="wishlist")
-public class Wishlist implements Serializable {
-
-    private static final long SerialVersionUID=1l;
+public class Wishlist {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

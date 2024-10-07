@@ -14,9 +14,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name="Admin")
-public class Admin implements Serializable {
-
-    private static final long SerialVersionUID=1l;
+public class Admin{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

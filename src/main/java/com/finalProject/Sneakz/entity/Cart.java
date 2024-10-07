@@ -18,9 +18,7 @@ import java.util.Set;
 @JsonIgnoreProperties("hibernateLazyInitializer")
 @Entity
 @Table(name="cart")
-public class Cart implements Serializable {
-
-    private static final long SerialVersionUID=1l;
+public class Cart{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

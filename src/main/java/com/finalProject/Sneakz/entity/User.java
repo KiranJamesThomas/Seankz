@@ -13,9 +13,7 @@ import java.io.Serializable;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class User implements Serializable {
-
-    private static final long SerialVersionUID=1l;
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

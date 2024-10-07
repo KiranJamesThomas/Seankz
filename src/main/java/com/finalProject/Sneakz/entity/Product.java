@@ -19,9 +19,7 @@ import java.util.Set;
 @JsonIgnoreProperties("hibernateLazyInitializer")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Product implements Serializable {
-
-    private static final long SerialVersionUID=1l;
+public class Product{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
